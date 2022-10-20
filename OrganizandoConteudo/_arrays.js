@@ -10,4 +10,5 @@ console.log(arr[0]);
  console.log(arr);
 
  //mudando valor do elemento
- 
+ arr[3] = "mudança";
+ console.log(arr);
