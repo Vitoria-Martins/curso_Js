@@ -3,4 +3,11 @@ var arr = [ "Vitoria", 19,  true, {objeto: 1}]; //objeto so recebe valor em nume
 console.log(arr);
 
 //acessando elemento
-console.log(arr[0])
+console.log(arr[0]);
+
+//inserindo novo elemento no array
+ arr[4] = 20;
+ console.log(arr);
+
+ //mudando valor do elemento
+ 
