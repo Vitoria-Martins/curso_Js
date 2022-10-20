@@ -23,3 +23,6 @@ console.log("O meu nome é " + obj.nome);
 obj.nome = "Veronica";
 console.log(obj.nome);
 
+//inserindo nova propriedade
+obj.graduacao = true;
+console.log(obj);
