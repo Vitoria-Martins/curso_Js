@@ -23,7 +23,7 @@ for(var i = 0; i < lista.length; i++){
 
     var liFor = document.createElement('li');
 
-    //creando um texto pra li
+    //criando um texto pra li
     var textoLi = document.createTextNode(lista[i]);
 
     //juntando liFor & textoLi
