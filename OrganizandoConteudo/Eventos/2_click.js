@@ -14,7 +14,7 @@ btn.addEventListener("click", function(){
     this.style.color = "red";
 });
 
-
+//click afetando outros elementos
 var title = document.querySelector("#title");
 
 // a acao vai ser selecionar o subtitle que esta dentro de title
@@ -22,4 +22,12 @@ title.addEventListener("click", function(){
     var subtitle = document.querySelector(".subtitle");
 
     subtitle.style.display = "none";
+});
+
+// double click
+var subtitle = document.querySelector(".subtitle");
+
+// dblClick faz acao ao clicar 2 vezes
+subtitle.addEventListener("dblclick", function(){
+      console.log("click duplo!");
 });
